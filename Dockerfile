@@ -2,4 +2,4 @@ FROM registry.access.redhat.com/rhel7
 
 RUN yum -y install nmap nmap-ncat telnet wget curl ping
 
-CMD sleep 1; nc -p 1521 cc-tomcat-db-srv
+CMD sleep 1; nc -p 1521 ccguidewirepoc.c1idwje2nlaz.eu-central-1.rds.amazonaws.com
