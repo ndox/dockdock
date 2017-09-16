@@ -1,4 +1,5 @@
-FROM registry.access.redhat.com/rhel7
+#FROM registry.access.redhat.com/rhel7
+FORM base-centos7:latest
 
 RUN yum -y install nmap nmap-ncat telnet wget curl tcptraceroute bind-utils iputils rsync
 
