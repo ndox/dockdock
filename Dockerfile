@@ -1,4 +1,4 @@
-FROM base-centos7:latest
+FROM centos:latest
 
 #FROM registry.access.redhat.com/rhel7
 
